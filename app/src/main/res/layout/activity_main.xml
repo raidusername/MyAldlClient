@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.android.demo.MainActivity">
+
+
+        <Button
+            android:id="@+id/bindService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bindService" />
+
+        <Button
+            android:id="@+id/addPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="addPerson" />
+
+        <Button
+            android:id="@+id/getPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="getPerson" />
+
+        <Button
+            android:id="@+id/unBindService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="unBindService" />
+
+    </LinearLayout>
+</layout>
